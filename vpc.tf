@@ -1,6 +1,6 @@
 module "vpc" {
     source  = "app.terraform.io/hashicat-gcp-scm/network/google"
-    version = "3.4.0"
+    version = "3.45.0"
 
     project_id   = var.project
     network_name = "gaurav-network"
